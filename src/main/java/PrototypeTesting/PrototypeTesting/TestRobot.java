@@ -36,7 +36,7 @@ public class TestRobot {
 		//Ultrasound is currently not working on new robot, however the hardware has been tested and is working. 
 		//TestUltrasound();
 		//Two switches work but the other two do not respond to the Java code. They have been tested to work with python however. 
-		//TestSwitches();
+		TestSwitches();
 	}
 
 	private static void TestCamera(String directory, String imageName, int width, int height, int timeout) {
